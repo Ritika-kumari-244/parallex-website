@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    line-height: 1.9em;
+    color: #333;
+}
+.pimg1{
+    background-image: url(./49324140442_35ff2b78ec_b.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(./image-20151005-13669-efkvhc.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(./Music_jam_room_wishing.jpg);
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(./music_wallpaper_by_kojiroyouga-d4c1x21.jpg);
+    min-height: 400px;
+}
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+   
+}
+.textbg{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: #808080;
+    color: #fff;
+
+}
+.section_dark{
+background-color: lightpink;
+color: red;
+}
+.section_derk{
+    background-color: #808080;
+    color: rgb(241, 232, 232);
+    }
+    .section_dork{
+        background-color: #847bcd86;
+        color: rgb(8, 7, 7);
+        }
